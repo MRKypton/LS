@@ -2,7 +2,7 @@
 session_start();
 if (!isset($_SESSION['fname'])) {
   echo "<script>alert('คุณยังไม่ได้ Login');</script>";
-  header("location:fr_login.php");
+  echo "<script>window.location='login.php';</script>";
 }
 ?>
 
