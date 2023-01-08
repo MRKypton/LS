@@ -9,7 +9,7 @@ $password = $_POST['password'];
 // เข้ารหัส password
 $password_hash = hash('sha-512', $password);
 
-$sql = "INSERT INTO member(name,lname,telephone,username,password,status) VALUES ('$fname','$lname','$phone','$username','$password','0')";
+$sql = "INSERT INTO member(name,lname,telephone,username,password,status) VALUES ('$fname','$lname','$phone','$username','$password_hash','0')";
 $result = mysqli_query($conn, $sql);
 
 if ($result) {
