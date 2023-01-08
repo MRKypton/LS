@@ -1,5 +1,5 @@
 <?php
-include 'conn.php';
+include 'condb.php';
 
 $fname = $_POST['fname'];
 $lname = $_POST['lname'];
