@@ -27,7 +27,7 @@
         <form action="login.php" method="post">
           <label for="username" class="form-label">Username</label>
           <input type="text" name="username" class="form-control" maxlength="10" placeholder="..username" id="" required>
-          <label for="password" class="form-label">Username</label>
+          <label for="password" class="form-label">Password</label>
           <input type="password" name="password" class="form-control" maxlength="10" placeholder="..password" id="" required>
           <!-- แจ้ง error -->
           <?php
